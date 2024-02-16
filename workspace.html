@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<link href='https://unpkg.com/maplibre-gl/dist/maplibre-gl.css' rel='stylesheet'></link>
+		<script src='https://unpkg.com/maplibre-gl/dist/maplibre-gl.js'></script>
+		<script src="https://unpkg.com/blockly@10"></script>
+	</head>
+	<body>
+
+		<div style="height: 99%; width: 99%; display:flex;">
+			<div id="blocklyDiv" style="height: 99%; width: 50%; border: lightgrey solid; border-width: thin"></div>
+			<div id="mapDiv" style="height: 99%; width: 50%; border: lightgrey solid; border-width: thin"></div>
+		</div>
+
+		<div style="display:none" id="codeDiv"></div>
+		
+		<script src="js/eg.js"></script>
+		<script src="js/layer.esri.js"></script>
+		
+		<!--<script type="module" src="/dev-mapblockly/mapblockly.js"></script>-->
+		<script defer src="/mapblockly/mapblockly.js"></script>
+	
+		<script defer src="index.js"></script>
+
+	</body>
+</html>
