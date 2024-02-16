@@ -1,0 +1,2 @@
+
+ws.initWorkspace({readOnly: true});
